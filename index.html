@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <table id="table1">
+        <thead id="thead1"></thead>
+        <thead>
+            <th onclick="sortByHeaderClick('id')">id</th>
+            <th onclick="sortByHeaderClick('mass')">mass</th>
+            <th onclick="sortByHeaderClick('name')">name</th>
+            <th onclick="sortByHeaderClick('nametype')">nametype</th>
+            <th onclick="sortByHeaderClick('recclass')">recclass</th>
+            <th onclick="sortByHeaderClick('reclat')">reclat</th>
+            <th onclick="sortByHeaderClick('reclong')">reclong</th>
+            <th onclick="sortByHeaderClick('year')">year</th>
+        </thead>
+        <tbody id="tbody1"></tbody>
+    </table>
+    <div>
+        <p id="sumMass"></p>
+        <p id="minMass"></p>
+        <p id="maxMass"></p>
+        <p id="avgMass"></p>
+        <p id="metCount90"></p>
+        <p id="mettest"></p>
+    </div>
+
+    <script src="/js/meteorits.js"></script>
+</body>
+
+</html>

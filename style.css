@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px blue;
+    padding: 5px;
+}
+
+th {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    background: steelblue;
+    color: white;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
